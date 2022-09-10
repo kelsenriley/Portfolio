@@ -1,0 +1,116 @@
+html {
+    font-size: 20px;
+    background-color: #e6982b;
+    font-family: articulat-regular-cf, sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 4rem;
+    background-color: #E79115;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex: 1 0 1;
+    line-height: 3em;
+}
+
+
+
+header ul {
+    list-style: none;
+    display: flex;
+    padding-right: 2em;
+    
+}
+
+header li {
+    display: flex;
+}
+
+header a {
+    cursor: pointer;
+    padding: 0 2em;
+    background: #E79115;
+}
+
+header a:hover {
+    color: rgb(255, 255, 255);
+    background: #E79115;
+}
+
+.logo {
+    padding-left: 2em;
+
+}
+
+.HeroSpace {
+    display: flex;
+    background: url(../images/DSC03651.jpg);
+    background-size: cover;
+    padding: 0 15vw;
+    height: 50rem;
+}
+
+.HeroText {
+    font-size: 2vw;
+    line-height: 1em;
+    width: 60rem;
+    max-width: 100%;
+    color: white;
+    height: 40rem;
+    margin-top: 5rem;
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.65);
+
+
+}
+
+.heroname {
+    font-size: 2em;
+    
+}
+
+.herodesign {
+    font-size: 3em;
+    
+}
+
+.nutshell {
+    float: left;
+    max-width: 40rem;
+    padding-left: 4rem;
+    padding-top: 6rem;
+}
+
+.nutshelllinks {
+    display: flex;
+    max-width: 20rem;
+}
+
+
+
+.skills {
+    float: right;
+    max-width: 40rem;
+    padding-right: 4rem;
+    padding-top: 6rem;
+}
+
+.skillslist {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 40rem;
+}
+
+
+.myworkspacer {
+    padding-top: 8rem;
+    align-self: center;
+
+}
